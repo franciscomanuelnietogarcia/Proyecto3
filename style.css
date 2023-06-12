@@ -1,0 +1,291 @@
+#all {
+    background-image: url(imagenes/pexels-eva-bronzini-6407464.jpg);
+    width: auto;
+    height: 68.75rem;
+    max-width: auto;
+    max-height: auto;
+    display: block;
+    margin: 0rem;
+}
+
+#header {
+    width: auto;
+    height: 6.25rem;
+}
+
+.first-button {
+    display: inline-block;
+    background-color: transparent;
+    position: absolute;
+    top: 1.875rem;
+    left: 1.5625rem;
+    color: white;
+    padding: .625rem;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 2%;
+    font-size: 1.125rem;
+}
+
+.first-button img {
+    float: left;
+    margin-right: .625rem;
+    width: 1.875rem;
+    height: 1.875rem;
+}
+
+.first-button span {
+    display: inline-block;
+    line-height: 1.875rem;
+}
+
+.first-button:hover {
+    color: white;
+    background-color: transparent;
+    transform: scale(1.2);
+    transition: transform 0.5s ease-in-out;
+}
+
+.second-button {
+    display: inline-block;
+    background-color: transparent;
+    position: absolute;
+    top: 1.6875rem;
+    left: 12.5rem;
+    color: darkgrey;
+    padding: .625rem;
+    text-decoration: none;
+    text-align: top;
+    font-size: 1.125rem;
+    line-height: 30%;
+    height: 25rem;
+    height: 1.875rem;
+    margin-left: 2%;
+}
+
+.second-button span {
+    display: inline-block;
+    line-height: 400%;
+}
+
+.second-button:hover {
+    color: darkgrey;
+    background-color: transparent;
+    transform: scale(1.2);
+    transition: transform 0.5s ease-in-out;
+}
+
+.third-button {
+    display: inline-block;
+    background-color: transparent;
+    position: absolute;
+    top: 1.875rem;
+    left: 25rem;
+    color: darkgrey;
+    padding: .625rem;
+    text-decoration: none;
+    text-align: top;
+    font-size: 1.125rem;
+    line-height: 30%;
+    margin-left: 2%;
+    height: 1.5625rem;
+    width: 9.375rem;
+}
+
+.third-button span {
+    display: inline-block;
+    line-height: 1.875rem;
+}
+
+
+.third-button:hover {
+    color: darkgrey;
+    background-color: transparent;
+    transform: scale(1.2);
+    transition: transform 0.5s ease-in-out;
+}
+
+.fourth-button {
+    display: inline-block;
+    background-color: transparent;
+    background-image: url(imagenes/Logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: .125rem solid black;
+    position: absolute;
+    left: 3.75rem;
+    padding: .625rem;
+    margin-left: 40%;
+    height: 5rem;
+    width: 6.25rem;
+    display: inline-block;
+    line-height: 1.875rem;
+}
+
+
+
+.fifth-button {
+    display: inline-block;
+    background-color: transparent;
+    position: absolute;
+    top: 1.875rem;
+    left: 3.125rem;
+    color: darkgrey;
+    padding: .75rem;
+    text-decoration: none;
+    text-align: top;
+    font-size: 1.125rem;
+    line-height: 30%;
+    margin-left: 55%;
+}
+
+.fifth-button span {
+    display: inline-block;
+    line-height: 1.875rem;
+}
+
+
+.fifth-button:hover {
+    color: darkgrey;
+    background-color: transparent;
+    transform: scale(1.2);
+    transition: transform 0.5s ease-in-out;
+}
+
+.sixth-button {
+    display: inline-block;
+    background-color: transparent;
+    position: absolute;
+    top: 1.875rem;
+    left: 15.625rem;
+    color: orangered;
+    padding: .625rem;
+    text-decoration: none;
+    text-align: top;
+    font-size: 1.25rem;
+    line-height: 30%;
+    margin-left: 55%;
+}
+
+.sixth-button span {
+    display: inline-block;
+    line-height: 1.875rem;
+}
+
+
+.sixth-button:hover {
+    color: orangered;
+    background-color: transparent;
+    transform: scale(1.2);
+    transition: transform 0.5s ease-in-out;
+}
+
+.seventh-button {
+    display: inline-block;
+    background-color: transparent;
+    position: absolute;
+    top: 1.875rem;
+    left: 71.875rem;
+    color: darkgrey;
+    padding: .625rem;
+    text-decoration: none;
+    text-align: top;
+    font-size: 1.125rem;
+    line-height: 30%;
+    margin-left: 2%;
+
+}
+
+.seventh-button span {
+    display: inline-block;
+    line-height: 1.875rem;
+}
+
+
+.seventh-button:hover {
+    color: darkgrey;
+    background-color: transparent;
+    transform: scale(1.2);
+    transition: transform 0.5s ease-in-out;
+}
+
+#major {
+    border: .1875rem solid black;
+    background-color: white;
+    width: 87.5rem;
+    height: 61.875rem;
+    margin-left: 3%;
+    flex-direction: row;
+}
+
+.box-youtube {
+    display: grid;
+    border: .125rem solid black;
+    background-color: darkgray;
+    grid-template-columns: 60% auto;
+    grid-row: auto auto;
+    height: 31.25rem;
+
+}
+
+#box-video {
+    border: .125rem solid black;
+    background-color: gray;
+    background-image: url(imagenes/videoyoutube.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#box-doit {
+    border: .125rem solid black;
+    background-color: lightgray;
+    background-image: url(imagenes/Do\ it.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+#box-twitter {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    height: 6.25rem;
+    background-color: transparent;
+    background-image: url(imagenes/twitter2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#space {
+    background-color: transparent;
+}
+.box-promotion {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    height: 15.625rem;
+    background-color: white;
+
+}
+#box1 {
+    border: .125rem solid black;
+    background-image: url(imagenes/primeraopcion.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#box2 {
+    border: .125rem solid black;
+    background-image: url(imagenes/segundaopcion.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#box3 {
+    border: .125rem solid black;
+    background-image: url(imagenes/terceraopcion.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#footer {
+    border: .125rem solid black;
+    background-image: url(imagenes/piedepagina1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 9.375rem;
+}
